@@ -1,0 +1,135 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+    display: flex;
+    background-image: url(https://get.wallhere.com/photo/3840x2400-px-gradient-green-1422269.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Аватар */
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+/* Ссылки */
+.whatsapp-button {
+    bottom: 0px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 0px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+.profile{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.div-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div-3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div-2 p{
+    margin: 5px 0px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 95%;
+}
+.div-3 p{
+    margin: 5px 0px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 95%;
+}
+
+.profile p{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.profile h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.profile h1 span{
+    color: rgb(35, 125, 27);
+}
+.delivery-div{
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.delivery-div img{
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: -10px;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: -1;
+}
+.delivery-div h3{
+    text-shadow: 0px 0px 3px #05162c;
+}
+.images img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.container {
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 400px) {
+    .container {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .links .link {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
